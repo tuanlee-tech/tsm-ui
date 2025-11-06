@@ -1,9 +1,10 @@
 {
   "name": "@tuanlee-tech/tsm-ui",
-  "version": "1.0.0",
-  "description": "Modern React UI component library with beautiful design",
+  "version": "1.0.1",
+  "description": "Modern, customizable React UI component library built with Rollup",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
@@ -18,14 +19,20 @@
     "react",
     "components",
     "ui",
-    "design-system"
+    "design-system",
+    "library",
+    "rollup"
   ],
-  "author": "tuanlee",
+  "author": "tuanlee-tech",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuanlee-tech/tsm-ui"
+  },
 
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
   },
 
   "devDependencies": {

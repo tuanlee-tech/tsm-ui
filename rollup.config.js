@@ -18,6 +18,16 @@ export default {
       format: 'esm',
       sourcemap: true,
     },
+    {
+      file: 'dist/index.umd.js',
+      format: 'umd',
+      name: 'TSMUI',
+      globals: {
+        react: 'React',
+        'react-dom': 'ReactDOM',
+      },
+      sourcemap: true,
+    },
   ],
   plugins: [
     peerDepsExternal(),
