@@ -1,4 +1,4 @@
-import { forwardRef } from "react";
+import React, { forwardRef } from "react";
 import "./switch.css";
 
 export const Switch = forwardRef(({ label, className = "", ...props }, ref) => {
