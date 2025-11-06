@@ -1,6 +1,6 @@
 {
   "name": "@tuanlee-tech/tsm-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modern, customizable React UI component library built with Rollup",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
